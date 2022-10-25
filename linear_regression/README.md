@@ -51,3 +51,16 @@ $$
 \theta_j:=  \theta_j - \alpha{1 \over {10}} \displaystyle\sum^{i+9}_{k=i}(y^k-h_\theta(x^k))x^k_j
 $$
 
+## 多元线性回归
+
+### Cost Function
+
+$$
+{J(\theta_0,\theta_1,...,\theta_n)} = {{1} \over {2m}} \displaystyle\sum^{m}_{i=1}(y^i-h_\theta(x^i))^2
+$$
+
+不断迭代
+
+$$
+\theta_j := \theta_j- \alpha \frac{\partial }{\partial \theta_j}{J(\theta_0,\theta_1,...,\theta_n)}
+$$
